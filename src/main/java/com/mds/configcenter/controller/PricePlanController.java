@@ -20,7 +20,6 @@ import com.mds.configcenter.exception.ResourceNotFoundException;
 import com.mds.configcenter.model.PricePlan;
 import com.mds.configcenter.repository.PricePlanRepository;
 
-@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/api/v1/")
 public class PricePlanController {
